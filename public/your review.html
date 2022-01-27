@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{ 
+   box-sizing: border-box;
+}
+body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 15px 30px;
+        font-size: 17px;
+        padding: 8px;
+}
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+   input[type="text"],
+   input[type="email"],
+   input[type="password"],
+   input[type="number"],
+textarea{
+    width: 100%;
+    padding: 5px;
+}
+</style>
+
+
+
+</head>
+
+<body>
+    <div class="container">
+    <br />
+    <br />
+    <br />
+   <center>
+
+    <table border="1" width="100%"  >
+<thead> <tr>
+<th style="background-color: #87f06d;">Setp 1:Account</th>
+<th style="background-color: #87f06d;">step 2:Personal details</th>
+<th style="background-color: lightpink;">Step 3:Your Review</th>
+</tr></thead>
+</table> </center>
+
+<br />
+<br />
+
+<tbody>
+
+    <fieldset>
+<legend>Your Review:</legend>
+<form action="./index.html">
+    <label for=""> How did you hear about us?  
+        <select>
+            <option  value="#" disabled selected>Select your option</option>
+            <option value="pakistan">From Google</option>
+            <option value="pakistan">From Facebook</option>
+            <option value="pakistan">From Instagram</option>
+        </select>
+ 
+    </label>
+    <label for=""> <h5> Would you visit again ? <br />
+    <input type="radio" name="visit" id="visit">Yes
+    <input type="radio" name="visit" id="visit">No
+    <input type="radio" name="visit" id="visit">Maybe</h5>
+
+    </label>
+    <label for="comment">Comments: <br />
+<textarea name=" comment" id=" comment" placeholder="Enter Your comments Here...."  cols="30" rows="5"></textarea>
+    </label> <br /> <br />
+<label for="file"> Documents: <br />
+<input type="file" name="file" required id="file">
+</label> <br /> <br />
+<label for="checkbox"> 
+<input type="checkbox" name="checkbox" required id="checkbox"> Sign me up for email updates
+</label>
+<br /> <br />
+<button><a href="./personal detail.html"><img src="./Images/back.png" alt="back" width="80"></a></button>
+
+<button type="submit" > <img src="./Images/submit.png" alt="submit" width="80"></button>
+
+
+</form>
+<br />
+
+
+</fieldset>
+
+
+</tbody>
+</div>
+</body>
+
+</html>

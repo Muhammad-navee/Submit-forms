@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{ 
+           box-sizing: border-box;
+        }
+        body{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin: 15px 30px;
+                font-size: 17px;
+                padding: 8px;
+        }
+        .container{
+            background: linear-gradient(135deg,lightgreen, #71b7e6,#9b59b6);
+            padding: 5px 20px 15px 20px;
+            border: 1px solid lightgray;
+            border-radius: 10px;
+        }
+        
+           input[type="url"],
+           input[type="name"],
+           input[type="number"],
+        textarea{
+            width: 100%;
+            padding: 9px;
+            border: 1px solid #ccc;
+            border-radius: 10px ;
+        }
+
+        fieldset{
+        
+            background: linear-gradient(135deg,lightgreen,lightsalmon);
+            backface-visibility: initial;
+        border: 1px solid #000000;
+    
+        }
+        .main_heading{
+            text-align: center;
+        }
+        table{
+            font-size: 15px;
+            border-style: none;
+            
+        }
+
+        </style>
+
+</head>
+<body>
+    <div class="container"> 
+    <br />
+    <br />
+    <br />
+    <center>
+    <table border="1" width="100%"  >
+ <tr >
+<th style="background-color: #87f06d;">Setp 1:Account</th>
+<th style="background-color:lightpink">step 2:Personal details</th>
+<th>Step 3:Your Review</th>
+</tr>
+</table>
+</center>
+<br />
+<br />
+
+
+
+    <fieldset>
+<legend><h2> Personal Details </h2></legend>
+<form action="./your review.html">
+    <label for="name"> First Name: <br />
+        
+        <input type="name" id="name" placeholder="Enter First Name" required>
+    
+    </label> 
+    <br />  
+    <br /> 
+
+       <label for="name"> Last Name: 
+    
+    <br /> <input type="name" id="name" required placeholder="Enter Last Name">
+                        </label> <br /> 
+                                    <br />
+<label for="Number"></label> CNIC: <br /> 
+              <input type="number" id="number" required placeholder="Enter CNIC Number" maxlength="13">
+            </label> <br />
+                    <br />
+<label for="link"> Social Link: <br /> 
+    <input type="url"  id="Link" placeholder="Enter Facebook/Linkedin Profile Link">
+
+</label>
+
+
+<button type="button"><a href="./account.html"><img src="./Images/back.png" alt="back" width="80"></a></button>
+<button><img src="./Images/next.png" alt="next" width="80"> </button>
+    </form>
+<br />
+
+</fieldset>
+
+
+
+</div>
+</body>
+</html>
